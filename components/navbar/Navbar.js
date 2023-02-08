@@ -58,6 +58,7 @@ export default function Navbar() {
     <>
       {!session && (
         <NavLink
+        style = {{margin : "2px 2px"}}
           item={{ name: "Login", url: "" }}
           onClick={(e) => {
             e.preventDefault();
